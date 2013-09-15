@@ -1,0 +1,5 @@
+C:\Users\mauricio\Documents\SharpDevelop Projects\ShuVC\ShuVC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mauricio\Documents\SharpDevelop Projects\ShuVC\ShuVC\obj\x86\Debug\vcJOGJ.MainForm.resources
+C:\Users\mauricio\Documents\SharpDevelop Projects\ShuVC\ShuVC\obj\x86\Debug\vcJOGJ.WaitForm.resources
+C:\Users\mauricio\Documents\SharpDevelop Projects\ShuVC\ShuVC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mauricio\Documents\SharpDevelop Projects\ShuVC\ShuVC\obj\x86\Debug\GenerateResource.write.1.tlog

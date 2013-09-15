@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{7738EFB8-FB36-4E16-9833-35337C150E9C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>jackVC</RootNamespace>
+    <AssemblyName>jackVC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aforge\Core\Delegates.cs" />
+    <Compile Include="Aforge\Core\EventArgs.cs" />
+    <Compile Include="Aforge\Core\Exceptions.cs" />
+    <Compile Include="Aforge\Core\IntPoint.cs" />
+    <Compile Include="Aforge\Core\IntRange.cs" />
+    <Compile Include="Aforge\Core\Point.cs" />
+    <Compile Include="Aforge\Core\Range.cs" />
+    <Compile Include="Aforge\Core\SystemTools.cs" />
+    <Compile Include="Aforge\Histogram.cs" />
+    <Compile Include="Aforge\Imaging\Exceptions.cs" />
+    <Compile Include="Aforge\Imaging\Image.cs" />
+    <Compile Include="Aforge\Imaging\MemoryManager.cs" />
+    <Compile Include="Aforge\Imaging\UnmanagedImage.cs" />
+    <Compile Include="Aforge\SliderControl.cs" />
+    <Compile Include="Aforge\SliderControl.Designer.cs" />
+    <Compile Include="Aforge\Video.DirectShow\FileVideoSource.cs" />
+    <Compile Include="Aforge\Video.DirectShow\FilterInfo.cs" />
+    <Compile Include="Aforge\Video.DirectShow\FilterInfoCollection.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IAMCrossbar.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IAMStreamConfig.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IAMVideoControl.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IBaseFilter.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\ICaptureGraphBuilder2.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\ICreateDevEnum.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IEnumFilters.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IEnumPins.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IFileSourceFilter.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IFilterGraph.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IFilterGraph2.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IGraphBuilder.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IMediaControl.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IMediaEventEx.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IMediaFilter.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IPersist.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IPin.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IPropertyBag.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IReferenceClock.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\ISampleGrabber.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\ISampleGrabberCB.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\ISpecifyPropertyPages.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\IVideoWindow.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\Structures.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\Tools.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\Uuids.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Internals\Win32.cs" />
+    <Compile Include="Aforge\Video.DirectShow\PhysicalConnectorType.cs" />
+    <Compile Include="Aforge\Video.DirectShow\Uuids.cs" />
+    <Compile Include="Aforge\Video.DirectShow\VideoCapabilities.cs" />
+    <Compile Include="Aforge\Video.DirectShow\VideoCaptureDevice.cs" />
+    <Compile Include="Aforge\Video.DirectShow\VideoCaptureDeviceForm.cs" />
+    <Compile Include="Aforge\Video.DirectShow\VideoCaptureDeviceForm.Designer.cs" />
+    <Compile Include="Aforge\Video.DirectShow\VideoInput.cs" />
+    <Compile Include="Aforge\VideoSourcePlayer.cs" />
+    <Compile Include="Aforge\VideoSourcePlayer.Designer.cs" />
+    <Compile Include="Aforge\Video\AsyncVideoSource.cs" />
+    <Compile Include="Aforge\Video\ByteArrayUtils.cs" />
+    <Compile Include="Aforge\Video\Exceptions.cs" />
+    <Compile Include="Aforge\Video\IVideoSource.cs" />
+    <Compile Include="Aforge\Video\JPEGStream.cs" />
+    <Compile Include="Aforge\Video\MJPEGStream.cs" />
+    <Compile Include="Aforge\Video\VideoEvents.cs" />
+    <Compile Include="COLOR.cs" />
+    <Compile Include="ComputerVisionJOGJ.cs" />
+    <Compile Include="Drawing.cs" />
+    <Compile Include="ImgShow.cs" />
+    <Compile Include="ImgShow.Designer.cs">
+      <DependentUpon>ImgShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTextures.cs" />
+    <Compile Include="PTextures.Designer.cs" />
+    <Compile Include="Texturas.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="WaitForm.cs" />
+    <Compile Include="WaitForm.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Aforge\Histogram.resx" />
+    <EmbeddedResource Include="Aforge\SliderControl.resx" />
+    <EmbeddedResource Include="Aforge\Video.DirectShow\VideoCaptureDeviceForm.resx" />
+    <EmbeddedResource Include="Aforge\VideoSourcePlayer.resx" />
+    <EmbeddedResource Include="ImgShow.resx">
+      <DependentUpon>ImgShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTextures.resx">
+      <DependentUpon>PTextures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aforge\Video.DirectShow\Icons\camera.png" />
+    <None Include="Aforge\Video.DirectShow\Images\VideoCaptureDeviceForm.png" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aforge" />
+    <Folder Include="Aforge\Core" />
+    <Folder Include="Aforge\Imaging" />
+    <Folder Include="Aforge\Video" />
+    <Folder Include="Aforge\Video.DirectShow" />
+    <Folder Include="Aforge\Video.DirectShow\Icons" />
+    <Folder Include="Aforge\Video.DirectShow\Images" />
+    <Folder Include="Aforge\Video.DirectShow\Internals" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

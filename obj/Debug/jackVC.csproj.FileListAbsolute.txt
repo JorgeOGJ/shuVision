@@ -1,0 +1,15 @@
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\bin\Debug\jackVC.exe.config
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\bin\Debug\jackVC.exe
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\bin\Debug\jackVC.pdb
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.csprojResolveAssemblyReference.cache
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.Aforge.Histogram.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.Aforge.SliderControl.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.Aforge.Video.DirectShow.VideoCaptureDeviceForm.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.Aforge.VideoSourcePlayer.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\vcJOGJ.ImgShow.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\vcJOGJ.MainForm.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\vcJOGJ.PTextures.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\vcJOGJ.WaitForm.resources
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.csproj.GenerateResource.Cache
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.exe
+C:\Users\JorgeOG\Documents\Documents\SharpDevelop Projects\jackVC\jackVC\obj\Debug\jackVC.pdb
